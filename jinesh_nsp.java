@@ -16,12 +16,13 @@ public class jinesh_nsp extends Applet implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        l1.setSize(300,300);
         if (e.getSource() == b1) {
+            l1.setSize(2000,300);
+            l1.setForeground(Color.red);
             s = t1.getText();
             l1.setText(s);
             for(int i=0;i<600;i++){
-                l1.setLocation(0, 0+i);
+                l1.setLocation(400, 100+i);
                 l1.setText(s);
                 int fs=(1000-i)/10;
                 l1.setFont(new Font("TimesRoman", Font.PLAIN, fs));
@@ -39,6 +40,6 @@ public class jinesh_nsp extends Applet implements ActionListener {
     }
 }  
 /* 
-<applet code="Main.class" width="800" height="800"> 
+<applet code="jinesh_nsp.class" width="1000" height="1000"> 
 </applet> 
 */
