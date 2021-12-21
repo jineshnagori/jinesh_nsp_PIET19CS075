@@ -1,7 +1,7 @@
 # Java NSP Project
 
-Ques: Write an applet with a Text Box. when user enters something and click on button the string should display from top to bottom with decreased font size. <br>
-Output: <br>
+Ques: Write an applet with a Text Box. when user enters something and click on button the string should display from top to bottom with decreased font size. <br><br>
+Output: <br><br>
 <img src="output.gif" width="500"/>
 
 ## Requirements
